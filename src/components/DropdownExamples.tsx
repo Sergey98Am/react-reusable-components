@@ -1,5 +1,7 @@
 import Dropdown from "@/components/ui/Dropdown";
 import React, { useEffect, useRef } from "react";
+import { Button } from "./ui/Button";
+import { CaretDownIcon } from "@radix-ui/react-icons";
 
 const DropdownExamples = () => {
   const ref = useRef(null);
@@ -15,7 +17,11 @@ const DropdownExamples = () => {
     <div>
       {/* Simple Dropdown */}
       <Dropdown>
-        <Dropdown.Button>Simple Dropdown</Dropdown.Button>
+        <Dropdown.Button>
+          <Button className="m-1" size="lg">
+            Simple Dropdown <CaretDownIcon />
+          </Button>
+        </Dropdown.Button>
         <Dropdown.Content>
           <Dropdown.Group>
             <Dropdown.Item className="flex items-center">
@@ -45,7 +51,11 @@ const DropdownExamples = () => {
 
       {/* Radio Dropdown */}
       <Dropdown>
-        <Dropdown.Button>Radio Dropdown</Dropdown.Button>
+        <Dropdown.Button>
+          <Button className="m-1" size="lg">
+            Radio Dropdown <CaretDownIcon />
+          </Button>
+        </Dropdown.Button>
         <Dropdown.Content>
           <Dropdown.RadioGroup value={person} onValueChange={setPerson}>
             <Dropdown.RadioItem value="petik">Item 4</Dropdown.RadioItem>
@@ -56,7 +66,11 @@ const DropdownExamples = () => {
 
       {/* Checkbox Dropdown */}
       <Dropdown>
-        <Dropdown.Button>Radio Dropdown</Dropdown.Button>
+        <Dropdown.Button>
+          <Button className="m-1" size="lg">
+            Checkbox Dropdown <CaretDownIcon />
+          </Button>
+        </Dropdown.Button>
         <Dropdown.Content>
           <Dropdown.CheckboxItem
             checked={bookmarksChecked}
