@@ -13,12 +13,12 @@ const DropdownSubButton = ({ children }: { children: ReactNode }) => {
     px-2 
     py-1.5 
     text-gray-700 
-    data-[highlighted]:bg-sky-400 
+    data-[highlighted]:bg-orange-500 
     data-[highlighted]:text-white 
     data-[highlighted]:focus:outline-none 
-    data-[state=open]:bg-sky-300 
+    data-[state=open]:bg-orange-400 
     data-[state=open]:text-white 
-    data-[highlighted]:data-[state=open]:bg-sky-400`
+    data-[highlighted]:data-[state=open]:bg-orange-500`
   );
 
   return (

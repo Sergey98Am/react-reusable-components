@@ -25,7 +25,7 @@ const DropdownCheckboxItem = React.forwardRef<
     focus:text-accent-foreground 
     data-[disabled]:pointer-events-none 
     data-[disabled]:opacity-50 
-    data-[highlighted]:bg-sky-400 
+    data-[highlighted]:bg-orange-400 
     data-[highlighted]:text-white 
     data-[highlighted]:focus:outline-none`
   );

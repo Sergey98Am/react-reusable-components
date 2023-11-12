@@ -22,7 +22,7 @@ const DropdownItem = React.forwardRef<
     px-2 
     py-1.5 
     text-gray-700 
-    data-[highlighted]:bg-sky-400 
+    data-[highlighted]:bg-orange-500 
     data-[highlighted]:text-white 
     data-[highlighted]:focus:outline-none`
   );
