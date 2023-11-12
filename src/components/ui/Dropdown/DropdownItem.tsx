@@ -40,7 +40,7 @@ const DropdownItem = React.forwardRef<
         });
 
         await controls.start({
-          backgroundColor: "#38bdf8",
+          backgroundColor: "#f97316",
           color: "#fff",
           transition: { duration: 0.04 },
         });

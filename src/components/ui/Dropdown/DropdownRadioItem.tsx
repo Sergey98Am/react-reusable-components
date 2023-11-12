@@ -14,7 +14,7 @@ const DropdownRadioItem = React.forwardRef<
     cursor-default 
     select-none 
     items-center 
-    rounded-sm 
+    rounded
     py-1.5 
     pl-6 
     pr-2 
