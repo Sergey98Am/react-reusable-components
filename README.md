@@ -2,6 +2,7 @@
 
 Creating ReactJS reusable components with [Tailwind CSS](https://tailwindcss.com), [Radix UI](https://www.radix-ui.com) and [Framer Motion](https://www.framer.com/motion) for community developers to use this components during development.
 Also using [ctl](https://github.com/netlify/classnames-template-literals), [cva](https://github.com/joe-bell/cva).
+[On Netlify server](https://react-reusable-components-by-sergey.netlify.app/)
 
 ## Used the following sources.
 
