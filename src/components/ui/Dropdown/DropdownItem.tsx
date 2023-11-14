@@ -22,7 +22,7 @@ const DropdownItem = React.forwardRef<
     px-2 
     py-1.5 
     text-gray-700 
-    data-[highlighted]:bg-orange-500 
+    data-[highlighted]:bg-slate-500 
     data-[highlighted]:text-white 
     data-[highlighted]:focus:outline-none`
   );
@@ -40,7 +40,7 @@ const DropdownItem = React.forwardRef<
         });
 
         await controls.start({
-          backgroundColor: "#f97316",
+          backgroundColor: "#64748b",
           color: "#fff",
           transition: { duration: 0.04 },
         });

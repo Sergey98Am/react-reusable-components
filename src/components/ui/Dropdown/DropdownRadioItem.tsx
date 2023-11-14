@@ -25,7 +25,7 @@ const DropdownRadioItem = React.forwardRef<
     focus:text-accent-foreground 
     data-[disabled]:pointer-events-none 
     data-[disabled]:opacity-50 
-    data-[highlighted]:bg-orange-500 
+    data-[highlighted]:bg-slate-500 
     data-[highlighted]:text-white 
     data-[highlighted]:focus:outline-none`
   );
