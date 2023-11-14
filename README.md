@@ -5,11 +5,11 @@ Also using [ctl](https://github.com/netlify/classnames-template-literals), [cva]
 
 ## Used the following sources.
 
--https://www.youtube.com/watch?v=p8CsotWUas0&t=15s&pp=ygUTcmFkaXggZHJvcGRvd24gbWVudQ%3D%3D
+- [Animating a Radix Dropdown with Framer Motion](https://www.youtube.com/watch?v=p8CsotWUas0&t=15s&pp=ygUTcmFkaXggZHJvcGRvd24gbWVudQ%3D%3D)
 
-- https://www.youtube.com/watch?v=v7uU77Yl_3k&t=1542s&pp=ygUTcmFkaXggZHJvcGRvd24gbWVudQ%3D%3D
+- [Refactoring a Radix Dropdown Menu](https://www.youtube.com/watch?v=v7uU77Yl_3k&t=1542s&pp=ygUTcmFkaXggZHJvcGRvd24gbWVudQ%3D%3D)
 
-- https://github.com/sadmann7/skateshop
+- [Skateshop](https://github.com/sadmann7/skateshop)
 
 ## Installing
 
